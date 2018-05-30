@@ -8,7 +8,7 @@
 <script>
   /*import {reqFoodTypes} from './api'*/
   import FooterGuide from './components/FooterGuide/FooterGuide'
-  import {mapActions} from 'vuex'
+  import {mapActions} from 'store'
   export default {
     mounted(){
       /*const result = await reqFoodTypes()

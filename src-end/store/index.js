@@ -1,6 +1,6 @@
 /*vuex最核心管理对象store对象模块*/
 import Vue from 'vue'
-import Vuex from 'vuex'
+import Vuex from 'store'
 
 import state from './state'
 import mutations from './mutations'

@@ -41,7 +41,7 @@
 </template>
 
 <script>
-  import {mapState} from 'vuex'
+  import {mapState} from 'store'
   import ShopList from '../../components/ShopList/ShopList'
   import HeaderTop from '../../components/HeaderTop/HeaderTop'
   import Swiper from 'swiper'

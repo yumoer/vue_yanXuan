@@ -47,7 +47,7 @@
 </template>
 
 <script>
-  import {mapState} from 'vuex'
+  import {mapState} from 'store'
   import Star from '../Star/Star'
   export default {
     data(){
