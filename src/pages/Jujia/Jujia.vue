@@ -8,144 +8,18 @@
       <div class="nav_content">
         <ul class="content_list">
           <li class="list_item">
-            <div class="item_names">
+            <div class="item_names" v-for="(subCate,index) in nav[0].subCateList" :key="index" v-if="nav[0].subCateList[0]">
               <header class="names_title">
-                <p class="title_top">床品件套</p>
-                <p class="title_bottom">MUJI等品牌制造商出品</p>
+                <p class="title_top">{{subCate.name}}</p>
+                <p class="title_bottom">{{subCate.frontName}}</p>
               </header>
               <div class="names_goods">
-                <ul class="goods_line">
+                <ul class="goods_line" >
                   <li class="line_left">
                     <a href="" class="left_good">
                       <div class="good_image">
                         <div class="image_top">
-                          <img src="http://yanxuan.nosdn.127.net/787b94186d73f1a1beec72e3197c53e1.jpg?imageView&quality=65&thumbnail=330x330" alt="">
-                        </div>
-                        <div class="image_bottom">独家花漾设计，纯棉透气亲肤</div>
-                      </div>
-                      <div class="good_icon">
-                        <div class="icon_name">新品</div>
-                      </div>
-                      <div class="good_name">
-                        <span>花漾初绽四件套</span>
-                      </div>
-                      <div class="good_price">
-                        <span>￥299</span>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="line_right">
-                    <a href="" class="left_good">
-                      <div class="good_image">
-                        <div class="image_top">
-                          <img src="http://yanxuan.nosdn.127.net/787b94186d73f1a1beec72e3197c53e1.jpg?imageView&quality=65&thumbnail=330x330" alt="">
-                        </div>
-                        <div class="image_bottom">独家花漾设计，纯棉透气亲肤</div>
-                      </div>
-                      <div class="good_icon">
-                        <div class="icon_name">新品</div>
-                      </div>
-                      <div class="good_name">
-                        <span>花漾初绽四件套</span>
-                      </div>
-                      <div class="good_price">
-                        <span>￥299</span>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="names_goods">
-                <ul class="goods_line">
-                  <li class="line_left">
-                    <a href="" class="left_good">
-                      <div class="good_image">
-                        <div class="image_top">
-                          <img src="http://yanxuan.nosdn.127.net/787b94186d73f1a1beec72e3197c53e1.jpg?imageView&quality=65&thumbnail=330x330" alt="">
-                        </div>
-                        <div class="image_bottom">独家花漾设计，纯棉透气亲肤</div>
-                      </div>
-                      <div class="good_icon">
-                        <div class="icon_name">新品</div>
-                      </div>
-                      <div class="good_name">
-                        <span>花漾初绽四件套</span>
-                      </div>
-                      <div class="good_price">
-                        <span>￥299</span>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="line_right">
-                    <a href="" class="left_good">
-                      <div class="good_image">
-                        <div class="image_top">
-                          <img src="http://yanxuan.nosdn.127.net/787b94186d73f1a1beec72e3197c53e1.jpg?imageView&quality=65&thumbnail=330x330" alt="">
-                        </div>
-                        <div class="image_bottom">独家花漾设计，纯棉透气亲肤</div>
-                      </div>
-                      <div class="good_icon">
-                        <div class="icon_name">新品</div>
-                      </div>
-                      <div class="good_name">
-                        <span>花漾初绽四件套</span>
-                      </div>
-                      <div class="good_price">
-                        <span>￥299</span>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="names_goods">
-                <ul class="goods_line">
-                  <li class="line_left">
-                    <a href="" class="left_good">
-                      <div class="good_image">
-                        <div class="image_top">
-                          <img src="http://yanxuan.nosdn.127.net/787b94186d73f1a1beec72e3197c53e1.jpg?imageView&quality=65&thumbnail=330x330" alt="">
-                        </div>
-                        <div class="image_bottom">独家花漾设计，纯棉透气亲肤</div>
-                      </div>
-                      <div class="good_icon">
-                        <div class="icon_name">新品</div>
-                      </div>
-                      <div class="good_name">
-                        <span>花漾初绽四件套</span>
-                      </div>
-                      <div class="good_price">
-                        <span>￥299</span>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="line_right">
-                    <a href="" class="left_good">
-                      <div class="good_image">
-                        <div class="image_top">
-                          <img src="http://yanxuan.nosdn.127.net/787b94186d73f1a1beec72e3197c53e1.jpg?imageView&quality=65&thumbnail=330x330" alt="">
-                        </div>
-                        <div class="image_bottom">独家花漾设计，纯棉透气亲肤</div>
-                      </div>
-                      <div class="good_icon">
-                        <div class="icon_name">新品</div>
-                      </div>
-                      <div class="good_name">
-                        <span>花漾初绽四件套</span>
-                      </div>
-                      <div class="good_price">
-                        <span>￥299</span>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="names_goods">
-                <ul class="goods_line">
-                  <li class="line_left">
-                    <a href="" class="left_good">
-                      <div class="good_image">
-                        <div class="image_top">
-                          <img src="http://yanxuan.nosdn.127.net/787b94186d73f1a1beec72e3197c53e1.jpg?imageView&quality=65&thumbnail=330x330" alt="">
+                          <img :src="subCate.wapBannerUrl" alt="">
                         </div>
                         <div class="image_bottom">独家花漾设计，纯棉透气亲肤</div>
                       </div>
@@ -730,12 +604,18 @@
 </template>
 
 <script>
+  import {mapState} from 'vuex'
   import HomeHeader from '../Home/Home_Header/Home_Header'
   export default {
     components:{
       HomeHeader
     },
-    methods: {}
+    computed:{
+      ...mapState(['nav'])
+    },
+    mounted(){
+      this.$store.dispatch('getNav')
+    }
   }
 </script>
 

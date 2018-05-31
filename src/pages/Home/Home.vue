@@ -6,11 +6,13 @@
     <Container/>
     <!-- 尾部信息 -->
     <Footer/>
+
   </div>
 
 </template>
 
 <script>
+  import GoTop from '../../compoments/goTop/goTop'
   import {mapState} from 'vuex'
   import Swiper from 'swiper'
   import BScroll from 'better-scroll'
@@ -26,7 +28,8 @@
     components:{
       Header,
       Container,
-      Footer
+      Footer,
+      GoTop
     },
     mounted(){
       this.$store.dispatch('getHome')

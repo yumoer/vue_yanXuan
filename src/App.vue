@@ -1,15 +1,19 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <FooterGuide/>
+    <!-- 回到顶部 -->
+    <GoTop/>
+    <FooterGuide />
   </div>
 </template>
 
 <script>
+  import GoTop from './compoments/goTop/goTop'
   import FooterGuide from './compoments/FooterGuide/FooterGuide'
   export default {
     components:{
-      FooterGuide
+      FooterGuide,
+      GoTop
     }
   }
 </script>

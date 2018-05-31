@@ -32,7 +32,14 @@
 <script>
   import BScroll from 'better-scroll'
   export default {
+    created () {
+      this.resetTop()
+    },
     methods: {
+      resetTop () {
+        window.scrollTo(0, 0)
+      },
+
       goto(path) {
         this.$router.push(path)
       },

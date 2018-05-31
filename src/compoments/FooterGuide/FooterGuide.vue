@@ -18,7 +18,7 @@
       <i class="iconfont icon-all icon-gouwuche1" ></i>
       <span class="icon_name">购物车</span>
     </a>
-    <a href="javascript:;" class="guide_item" @click="goto('/geren')" :class="{active: isCurrent('/geren')}">
+    <a href="javascript:;" class="guide_item" @click="goto('/geren')" :class="{active: isCurrent('/geren')}" >
       <i class="iconfont icon-all icon-geren1" ></i>
       <span class="icon_name">个人</span>
     </a>
